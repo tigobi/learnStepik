@@ -1,3 +1,5 @@
+package things;
+
 import java.awt.*;
 
 public class Monstr {
