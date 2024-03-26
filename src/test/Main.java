@@ -4,21 +4,10 @@ import things.*;
 
 public class Main {
     public static void main(String[] args) {
-        MyArrayList employees = getEmployees();
-        for (int i = 0; i<employees.getSize(); i++) {
-            System.out.println(employees.get(i));
-
-        }
-
-    }
-
-    private static MyArrayList getEmployees() {
-       MyArrayList employees = new MyArrayList();
-        employees.add("Tikhon");
-        employees.add("Vanya");
-        employees.add("Kolya");
-        employees.add("Slava");
-        employees.add("Max");
-        return employees;
+        String s = "This is John. He is 27 years old.";
+        String name = s.substring(8, 12);
+        int age = Integer.parseInt(s.substring(20, 22));
+        Person john = new Person(name,age );
+        System.out.println(john.getAge()+john.getName());
     }
 }
