@@ -10,6 +10,9 @@ public class CatFamily {
         this.eyes = eyes;
         this.canEatPerson = canEatPerson;
     }
+    public void eat(){
+        System.out.println("Кушкаю");
+    }
 
     public int getLegs() {
         return legs;

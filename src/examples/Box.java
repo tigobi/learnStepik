@@ -5,15 +5,15 @@ public class Box {
     private double width;
     private double height;
 
-    private Box(double size) {
+    public Box(double size) {
         this(size, size, size);
     }
 
-    private Box() {
+    public Box() {
         this(10);
     }
 
-    private Box(Box another) {
+    public Box(Box another) {
         this(another.length, another.width, another.height);
     }
 
@@ -21,6 +21,10 @@ public class Box {
         this.length = length;
         this.width = width;
         this.height = height;
+    }
+
+    public void showInfo() {
+        System.out.println("Width: " + width + " Height " + height + " Length " + length);
     }
 
     public Box copy() {
