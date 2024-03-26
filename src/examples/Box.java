@@ -1,4 +1,4 @@
-package things;
+package examples;
 
 public class Box {
     private double length;

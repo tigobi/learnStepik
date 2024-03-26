@@ -1,4 +1,4 @@
-package things;
+package examples;
 
 public class MyArrayList {
     private String[] array = new String[10];

@@ -1,6 +1,4 @@
-package things;
-
-import java.awt.*;
+package examples;
 
 public class Monstr {
     int eyesCount;
