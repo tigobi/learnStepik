@@ -21,6 +21,11 @@ public class Person {
         return age;
     }
 
+    @Override
+    public String toString() {
+        return String.format("Name: %s, age %s", name,age );
+    }
+
     public void setAge(int age) {
         if (age >= 0)
             this.age = age;
