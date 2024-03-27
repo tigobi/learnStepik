@@ -11,8 +11,8 @@ public class Main {
     public static void main(String[] args) {
         Random random = new Random();
         for (int i = 0; i < 100; i++) {
-            int number = random.nextInt(1,7);
-            System.out.println(String.format("Ваше число %s",number));
+            int number = random.nextInt(1, 7);
+            System.out.printf("Ваше число %s%n", number);
         }
     }
 }
